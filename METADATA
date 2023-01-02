@@ -1,20 +1,3 @@
-name: "google-breakpad"
-description:
-    "Breakpad is a set of client and server components which implement a "
-    "crash-reporting system"
-third_party {
-  url {
-    type: HOMEPAGE
-    value: "https://chromium.googlesource.com/breakpad/breakpad"
-  }
-  url {
-    type: GIT
-    value: "https://chromium.googlesource.com/breakpad/breakpad"
-  }
-  version: "a2d3e8b"
-  last_upgrade_date { year: 2020 month: 4 day: 19 }
-  # would be NOTICE save for APSL in:
-  #   src/third_party/mac_handler/breakpad_nlist_64.cc
-  #   src/third_party/mac_headers/
-  license_type: RECIPROCAL
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e06cabae385f98631603c30b6c6d18c34379c39bcdd5d329552cf1ee6c4f486
+size 572

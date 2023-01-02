@@ -1,10 +1,3 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@/@PACKAGE_NAME@
-
-Name: google-breakpad
-Description: An open-source multi-platform crash reporting system
-Version: @PACKAGE_VERSION@
-Libs: -L${libdir} -lbreakpad @PTHREAD_LIBS@
-Cflags: -I${includedir} @PTHREAD_CFLAGS@
+version https://git-lfs.github.com/spec/v1
+oid sha256:90aa5f50c3042352ec469f204670e4443d7017315c9abfbb355fa7fdc8304b51
+size 298
